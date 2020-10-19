@@ -54,7 +54,7 @@ while stream.is_active():
     try:
         input_r = stream.read(CHUNK,  exception_on_overflow = False)
 
-        data = l_effect(input_r)
+        data = total_disaster(input_r)
         # y = np.frombuffer(input_r, np.float32)
 
         stream.write(data)
